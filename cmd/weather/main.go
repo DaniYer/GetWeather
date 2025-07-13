@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"log"
+
+	"github.com/DaniYer/GoWeatherNow/internal/app"
+)
 
 func main() {
-	fmt.Println("Weather application is running...")
+	if err := app.InitApp(); err != nil {
+		log.Fatalf("Ошибка запуска приложения: %v", err)
+	}
 }
