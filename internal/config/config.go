@@ -15,7 +15,7 @@ type Config struct {
 func Load() (*Config, error) {
 	_ = godotenv.Load()
 
-	key := os.Getenv("OPENWEATHER_API_KEY")
+	key := "823eb0a67eab06f515e54c6ca116980d"
 	port := os.Getenv("PORT")
 	if port == "" {
 		port = "8080"

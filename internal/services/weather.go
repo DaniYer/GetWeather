@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/DaniYer/GoWeatherNow/internal/models"
+	"github.com/DaniYer/GetWeather.git/internal/models"
 )
 
 func FetchWeather(city, apiKey string) (*models.CustomResponse, error) {

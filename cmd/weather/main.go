@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/DaniYer/GoWeatherNow/internal/app"
+	"github.com/DaniYer/GetWeather.git/internal/app"
 )
 
 func main() {
